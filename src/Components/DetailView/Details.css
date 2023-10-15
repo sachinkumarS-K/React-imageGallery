@@ -1,0 +1,39 @@
+.wrapper{
+    height: 18rem;
+    width: 841px;
+    margin: 5rem auto;
+    border: 1px solid black;
+    background-color: rgb(4,46,94);
+    box-shadow: 3px 3px 5px 6px #ccc;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+.imageCont{
+    height: 99%;
+    width: 20rem;
+    padding: 20px;
+}
+.imageCont img{
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 1.5px 1.5px 3.5px 3px rgb(66, 107, 154);
+    height: 250px;
+    border-radius: 10px;
+}
+.content{
+    height: 95%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    font-size: 29px;
+    padding: 10px;
+}
+.desc{
+    margin-top: -1rem;
+    font-size: 15px;
+    padding: 10px;
+}

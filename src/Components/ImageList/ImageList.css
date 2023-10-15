@@ -1,0 +1,10 @@
+.cardWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+}
